@@ -1,0 +1,32 @@
+{
+"Ingredients": [
+{
+    "Name": "carrot", 
+    "amount": 0,
+    "owns": false
+},
+{
+    "Name": "apple", 
+    "amount": 0,
+    "owns": false
+},
+{
+    "Name": "potato", 
+    "amount": 0,
+    "owns": false
+},
+{
+    "Name": "milk", 
+    "amount": 0,
+    "owns": false
+},
+{
+    "Name": "minced meat", 
+    "amount": 0,
+    "owns": false
+}
+] 
+
+
+
+}
