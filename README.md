@@ -9,8 +9,8 @@
 
 TODO:
 
-chat-gpt api integraatio
-bugi jossa valinnat poistuu jos etsitään reseptejä
-käyttäjä voi lisätä itse ainesosia
-logo stable diffusionilla
+- Chat-gpt api integraatio
+- Bugi jossa valinnat poistuu jos etsitään reseptejä
+- Käyttäjä voi lisätä itse ainesosia
+- Logo stable diffusionilla
 
