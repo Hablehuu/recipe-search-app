@@ -13,4 +13,6 @@ TODO:
 - Bugi jossa valinnat poistuu jos etsitään reseptejä
 - Käyttäjä voi lisätä itse ainesosia
 - Logo stable diffusionilla
-
+- Saa hyväksyttyä play kauppaan
+- Jokin tapa piilottaa API avain
+- 
