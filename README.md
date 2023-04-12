@@ -4,6 +4,13 @@
 
 - Käyttäjä voi hakea, lisätä, muokata ja poistaa ainesosia.
 - Käyttäjä voi selata reseptejä.
-- Käyttäjä voi lisätä suosikkeihin reseptejä.
-- Käyttäjän lisäämät ainesosat ja suosikkireseptit tallennetaan paikkaan X.
-- Sovellus hakee reseptit käyttäjän ainesosien perusteella paikasta Y.
+- Käyttäjän lisäämät ainesosat tallennetaan JSON tiedostoon.
+- Sovellus hakee reseptit käyttäjän ainesosien perusteella paikasta chat-GPT:ltä.
+
+TODO:
+
+chat-gpt api integraatio
+bugi jossa valinnat poistuu jos etsitään reseptejä
+käyttäjä voi lisätä itse ainesosia
+logo stable diffusionilla
+
