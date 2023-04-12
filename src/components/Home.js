@@ -57,8 +57,9 @@ const HomeScreen = ({ route}) => {
   //filters the recepies so that only the ones that have all their ingredients owned by the user are shown
   //TODO: the amounts of ingredients could be nice to have aswell
   const filtRecep = DATA.filter((item) => item.ingredients.every((element) => data.includes(element)));
-  console.log(filtRecep)
+  console.log(filtRecep + " filtered recipes")
   //setRecipes(filtRecep)
+  
   const Recipe = ({item}) => {
     
     return (

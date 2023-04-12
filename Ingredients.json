@@ -24,6 +24,31 @@
     "Name": "minced meat", 
     "amount": 0,
     "owns": false
+},
+{
+    "Name": "water", 
+    "amount": 0,
+    "owns": false
+},
+{
+    "Name": "tomato", 
+    "amount": 0,
+    "owns": false
+},
+{
+    "Name": "lettuce", 
+    "amount": 0,
+    "owns": false
+},
+{
+    "Name": "beef", 
+    "amount": 0,
+    "owns": false
+},
+{
+    "Name": "chicken", 
+    "amount": 0,
+    "owns": false
 }
 ] 
 
