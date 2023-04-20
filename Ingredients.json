@@ -1,57 +1,319 @@
 {
-"Ingredients": [
-{
-    "Name": "carrot", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "apple", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "potato", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "milk", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "minced meat", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "water", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "tomato", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "lettuce", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "beef", 
-    "amount": 0,
-    "owns": false
-},
-{
-    "Name": "chicken", 
-    "amount": 0,
-    "owns": false
-}
-] 
-
-
-
+    "Ingredients": [
+        {
+            "Name": "salt",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "pepper",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "olive oil",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "garlic",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "onion",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "sugar",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "butter",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "eggs",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "milk",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "flour",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "baking powder",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "vanilla extract",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "cinnamon",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "chicken broth",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "beef broth",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "soy sauce",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "rice",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "pasta",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "tomatoes",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "cheese",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "sour cream",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "yogurt",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "mayonnaise",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "mustard",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "ketchup",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "bread",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "bacon",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "sausage",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "ground beef",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "chicken breasts",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "ground turkey",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "salmon",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "shrimp",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "avocado",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "bell peppers",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "mushrooms",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "zucchini",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "carrots",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "celery",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "spinach",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "kale",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "lettuce",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "cucumbers",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "lemons",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "limes",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "apples",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "bananas",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "oranges",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "berries",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "peaches",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "grapes",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "melon",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "pineapple",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "watermelon",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "black beans",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "chickpeas",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "lentils",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "quinoa",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "tortillas",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "coconut oil",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "canola oil",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "honey",
+            "amount": 0,
+            "owns": false
+        },
+        {
+            "Name": "turmeric",
+            "amount": 0,
+            "owns": false
+        }
+    ]
 }
