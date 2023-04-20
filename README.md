@@ -2,10 +2,10 @@
 
 ## Ominaisuudet ja toiminnot
 
-- Käyttäjä voi hakea, lisätä, muokata ja poistaa ainesosia.
+- Käyttäjä voi hakea, lisätä ja poistaa ainesosia.
 - Käyttäjä voi selata reseptejä.
 - Käyttäjän lisäämät ainesosat tallennetaan JSON tiedostoon.
-- Sovellus hakee reseptit käyttäjän ainesosien perusteella paikasta chat-GPT:ltä.
+- Sovellus hakee reseptit käyttäjän ainesosien perusteella chat-GPT:ltä.
 
 TODO:
 
@@ -14,5 +14,4 @@ TODO:
 - Käyttäjä voi lisätä itse ainesosia
 - Logo stable diffusionilla
 - Saa hyväksyttyä play kauppaan
-- Jokin tapa piilottaa API avain
-- 
+- Firebase backend hakemaan OpenAI API:lla vastaus
