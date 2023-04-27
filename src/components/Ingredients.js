@@ -16,13 +16,15 @@ import ingredientsData from '../../Ingredients.json';
 //TODO: a way for the user to set how much they have of a certain ingredient
 const SearchScreen = ({ navigation }) => {
   const [data, setData] = useState([]);
+  const [owned, setOwned] = useState([]);
   const [query, setQuery] = useState('');
   useEffect(() => {
     setData(ingredientsData.Ingredients);
+    setOwned(ingredientsData.Ingredients);
   }, []);
 
   const filterData = (query) => {
-    const filteredData = ingredientsData.Ingredients.filter((item) =>
+    const filteredData = owned.filter((item) =>
       item.Name.toLowerCase().includes(query.toLowerCase())
     );
     setData(filteredData);
@@ -32,7 +34,7 @@ const SearchScreen = ({ navigation }) => {
   const renderItem = ({ item }) => (
     <TouchableOpacity 
       onPress ={() => {
-        const newData = data.map(ingredient => {
+        const newData = owned.map(ingredient => {
           if (ingredient.Name === item.Name) {
             return {
               ...ingredient,
@@ -42,9 +44,7 @@ const SearchScreen = ({ navigation }) => {
           return ingredient;
         });
         setData(newData);
-        //if(!item.owns){Alert.alert('Ingredient added')}
-        //else Alert.alert('Ingredient removed')
-        
+        setOwned(newData);
       }
      } 
       style={[styles.item, item.owns ? styles.green : styles.white]}>
@@ -69,7 +69,7 @@ const SearchScreen = ({ navigation }) => {
       <Button
           title="save changes and return to home screen"
           //TODO: actually save data to the JSON file
-          onPress={() => navigation.navigate('Home', { data: data.filter(ingredient => ingredient.owns) })}
+          onPress={() => navigation.navigate('Home', { data: owned.filter(ingredient => ingredient.owns) })}
       />
     </SafeAreaView>
   );

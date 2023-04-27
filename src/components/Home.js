@@ -57,8 +57,6 @@ const HomeScreen = ({ route}) => {
     
     const temp = APIresponse.split('\n');
     setList(temp);
-  
-  
   }
   console.log(list);
 
